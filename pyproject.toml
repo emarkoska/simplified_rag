@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "rag-simple"
+version = "0.1.0"
+description = "RAG Simplified Explained"
+authors = ["ShahMitul-GenAI <replymitul@outlook.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "simplified_rag"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.2.1"
+streamlit = "^1.35.0"
+python-dotenv = "^1.0.1"
+langchain-community = "^0.2.15"
+langchain-openai = "^0.1.23"
+wikipedia = "^1.4.0"
+docarray = "^0.40.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
